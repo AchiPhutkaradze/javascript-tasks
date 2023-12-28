@@ -153,3 +153,39 @@
 // let gallons = sq / 350
 // console.log(`You will need to purchase ${Math.ceil(gallons)} gallons of paint to cover ${sq} square feet.`)
 
+// --------------- project 16 ------------------------
+// let item1 = prompt("Enter the price of item 1: ")
+// let quantity1 =prompt("Enter the quantity of item 1: ")
+// let item2 = prompt("Enter the price of item 2: ")
+// let quantity2 = prompt("Enter the quantity of item 2: ")
+// let item3 = prompt("Enter the price of item 3: ")
+// let quantity3 = prompt("Enter the quantity of item 3: ")
+// let subtotal = item1 * quantity1 + item2 * quantity2 + item3 * quantity3
+// let tax = (subtotal * 5.5)/100
+// let total = subtotal + tax
+// console.log(`Subtotal: $${subtotal}`)
+// console.log(`Tax: $${tax.toFixed(2)}`)
+// console.log(`Total: $${total.toFixed(2)}`)
+
+// -------------------project 17 -------------------------------
+// let euro = prompt("How many euros are you exchanging? ")
+// let rate = prompt("What is the exchange rate? ")
+// let dollar =(euro * rate) / 110.5609
+// console.log(` ${euro} euros at an exchange rate of ${rate} is ${dollar.toFixed(2)} U.S. dollars.`)
+// -----------------project 18 ----------------------------------
+// let principal = Number(prompt("Enter the principal: "))
+// let rate = prompt("Enter the rate of interest: ")
+// let year = prompt("Enter the number of years: ")
+// let percent = (principal * rate / 100) * year
+// let result = principal + percent
+// console.log(`After ${year} years at ${rate}%, the investment will be worth $${result.toFixed()}.`)
+
+// --------------------project 19 ---------------------------
+// let principal = Number(prompt("What is the principal amount?  "))
+// let rate = Number(prompt("What is the rate? "))
+// let year = prompt("What is the number of years? ")
+// let time = prompt("What is the number of times the interest is compounded per year? ")
+// let perc = rate/100
+// let a = principal * Math.pow(1 + perc / time,time * year)
+// console.log(` $${principal} invested at ${rate}% for ${year} years compounded ${time} times per year is $${a.toFixed(2)}.`)
+
