@@ -189,3 +189,87 @@
 // let a = principal * Math.pow(1 + perc / time,time * year)
 // console.log(` $${principal} invested at ${rate}% for ${year} years compounded ${time} times per year is $${a.toFixed(2)}.`)
 
+    // let question1 = prompt("What is the answer to the Great Question of Life, the Universe, and Everything? ")
+    // let question2 = prompt("What is the answer to the Great Question of Life, the Universe, and Everything? ")
+    // let question3 = prompt("What is the answer to the Great Question of Life, the Universe, and Everything? ")
+    // function result(){
+    //     for(let i = 0;i < question1,question2,question3;i++){
+    //     if(i === "hi"){
+    //         return "yes"
+    //     }    
+    //     }
+    // }
+    // console.log(result())
+
+//---------project 20 -------------------------------
+
+// let num = 42
+// let str = "forty-two" 
+// let str2="forty two"
+
+//     let question1 = Number(prompt("What is the answer to the Great Question of Life, the Universe, and Everything? "))
+//     if(question1 === num || str || str2){
+//         console.log("Yes")
+//     }
+//     else{
+//         console.log("No")
+//     }
+// let question2 = Number(prompt("What is the answer to the Great Question of Life, the Universe, and Everything? "))
+// if(question2 === num || str || str2){
+//         console.log("Yes")
+//     }
+//     else{
+//         console.log("No")
+//     }
+// let question3 =Number(prompt("What is the answer to the Great Question of Life, the Universe, and Everything? "))
+// if(question3 === num || str || str2){
+//         console.log("Yes")
+//     }
+//     else{
+//         console.log("No")
+//     }        
+
+// დაწერეთ პროგრამა, რათა შეამოწმოთ არის თუ არა რიცხვი გასაყოფი სხვა რიცხვზე.
+// let num1 = 12
+// let num2 = 4
+// function 
+// if(num1 % num2 === 0){
+//     console.log("იყოფა")
+// }else
+// {
+//     console.log("არ იყოფა")
+// }
+ 
+// დაწერეთ პროგრამა, რათა შეამოწმოთ სტრიქონი ცარიელია თუ არა.
+// let str = "Hello world"
+// let str2 = str.trim(" ")
+//  if (str2.length > 0){
+//      console.log("არ არის ცარიელი")
+//  }else{
+//      console.log("ცარიელია")
+//  }
+
+// დაწერეთ პროგრამა, რათა შეამოწმოთ, შეიცავს თუ არა სტრიქონი კონკრეტულ სიტყვას.
+// let str = "Hello world,I'm Developer :)"
+// if(str.includes("Developer")){
+//     console.log("sheicavs")
+// }
+// else{
+//     console.log("ar sheicavs")
+// }
+// დაწერეთ პროგრამა, რომ იპოვოთ მინიმალური ორი რიცხვიდან.
+
+// let num1 = 4
+// let num2 = 2
+// console.log(Math.min(num1,num2))
+
+//second version without Math method-------
+// let num1 = 4
+// let num2 = 2
+
+// if(num1 < num2){
+//     console.log(num1)
+// }
+// else if(num2 < num1){
+//     console.log(num2)
+// }
