@@ -79,3 +79,116 @@
 //     total = i + total
 // }
 // console.log(total)
+
+
+
+// დაწერეთ პროგრამა, რომელიც ინფუთის სახით მიიღებს თვის რიცხვს (1 იანვრისთვის, 2 თებერვლისთვის და ა.შ.) და ამობეჭდავს დღეების რაოდენობას ამ თვეში switch/case-ის გამოყენებით.
+
+// switch(Number(prompt("Enter month number: "))){
+// case 1:
+// console.log(31);
+// break;
+// case 2:
+// console.log(28);
+// break;
+// case 3:
+// console.log(31);
+// break;
+// case 4:
+//     console.log(30)
+//     break;
+// case 5 :
+//     console.log(31)
+//     break;
+// case 6 :
+//     console.log(30)
+//     break;
+// case 7 :
+//     console.log(31)
+//     break;
+// case 8:
+//     console.log(31)
+//     break;
+// case 9:
+//     console.log(30)
+//     break;
+// case 10:
+//     console.log(31)
+//     break;
+// case 11:
+//     console.log(30)
+//     break;
+// case 12:
+//     console.log(31)
+//     break;
+// }
+
+
+
+// დაწერეთ პროგრამა, რომელიც სთხოვს მომხმარებელს გამოიცნოს საიდუმლო რიცხვი 1-დან 10-მდე. განაგრძეთ გამოცნობის მოთხოვნა, სანამ ისინი სწორად გამოიცნობენ, while loop-ის გამოყენებით.
+// let secretNum = 7
+// let input = Number(prompt("Enter a number from 1 to 10: "))
+// while(input !== secretNum){
+//   input = Number(prompt("Enter a number from 1 to 10: "))
+// }{
+// console.log("it is correct")
+// }
+// }
+// დაწერეთ პროგრამა, რომელიც მიიღებს შეფასებას (A, B, C, D ან F) ინფუთის სახით და დაბეჭდავს შესაბამის შეტყობინებას switch/case-ის გამოყენებით. მაგალითად, თუ ინფუთი არის "A", უნდა დაბეჭდოს "შესანიშნავი!"
+// switch(prompt("Rate ")){
+//     case "A" :
+//         console.log("შესანიშნავი")
+//         break;
+//     case "B" :
+//         console.log("კარგი")
+//         break;
+//     case "C" :
+//         console.log("ნორმალური")
+//         break;
+//     case "D" :
+//         console.log("ცუდი")
+//         break;
+//     case "F" : 
+//         console.log("ძალიან ცუდი")
+//         break;
+// }
+
+
+// დაწერეთ პროგრამა, რომელიც მოუწოდებს მომხმარებელს შეიყვანოს პაროლი. პროგრამამ უნდა გააგრძელოს პაროლის მოთხოვნა სწორი პაროლის შეყვანამდე. სწორი პაროლის შეყვანის შემდეგ აჩვენეთ წარმატების შეტყობინება. სწორი პაროლი არის "12345".
+
+// let secretPass= 12345
+// let inp = Number(prompt("Enter Password: ")) 
+// while(secretPass !== inp ){
+//      inp = Number(prompt("Enter Password: "))
+// }{
+//     console.log("It is correct")
+// }
+
+// დაწერეთ ფუნქცია სახელად countBs, რომელიც იღებს სტრიქონს თავის ერთადერთ არგუმენტად და აბრუნებს სტრიქონში დიდი "B" სიმბოლოების რაოდენობას.
+//  function countBs (string){
+//      let count= 0
+
+//      for(let i=0;i<string.length;i++){
+// if(string[i].includes("B")){
+//     count++
+//      }
+//  }
+//  console.log(count)
+//  }
+//  countBs("Big Brother")
+// დაწერეთ ფუნქცია სახელად sumDigits, რომელიც არგუმენტად იღებს რიცხვს და აბრუნებს მისი ციფრების ჯამს.
+// function sumDigits(number){
+// let str = number.toString()
+// let count = 0
+// for(let i = 0;i<str.length;i++){
+// count = count + Number(str[i])
+// }
+// return count
+    
+// }
+
+// console.log(sumDigits(123456789))
+
+
+
+
