@@ -55,3 +55,17 @@ console.log(person.jobLength())
 // for(let i = 0; i<arr.length;i++){
 //     console.log(arr[i])
 // }
+
+
+// დაწერეთ ფუნქცია, რომელიც მიიღებს ობიექტების მასივს და თვისების სახელს და აბრუნებს ამ თვისების უნიკალური მნიშვნელობების მასივს ყველა ობიექტიდან.
+
+// let arr = [{name:"achi", age:20},{name:"giorgi", age:23}]
+
+// function obj(arr){
+// for(let i = 0; i<arr.length;i++){
+//     let objects = Object.keys(arr[i])
+//     console.log(objects)
+// } 
+// }
+
+// console.log(obj(arr))
